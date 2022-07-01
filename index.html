@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="flex items-center justify-center bg-newAmber-800 min-h-screen">
+      <!-- Card -->
+      <div class="bg-white mx-6 rounded-xl max-w-xl">
+        <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row md:h-450">
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt=""
+            class="object-fit rounded-l-xl rounded-t-xl rounded-r-xl rounded-b-none h-64 md:hidden"
+          />
+          <img
+            alt=""
+            class="hidden md:h-450 md:rounded-r-none md:rounded-l-xl md:block"
+            src="./images/image-product-desktop.jpg"
+          />
+          <!-- Content -->
+          <div class="flex flex-col space-y-8 mb-4 mx-8 md:space-y-6">
+            <h2 class="text-sm uppercase mt-4 font-montserrat text-newGray-800">
+              Perfume
+            </h2>
+            <h1 class="text-3xl max-w-sm font-fraunces text-newBlack-800">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+            <p class="text-sm max-w-xs font-montserrat text-newGray-800">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <!-- Prices  -->
+            <div class="flex flex-row space-x-2">
+              <span class="text-3xl text-green-700 mr-4 font-fraunces"
+                >$149.99</span
+              >
+              <span
+                class="text-sm text-center line-through font-montserrat text-newBlack-800"
+                >$169.99</span
+              >
+            </div>
+            <button
+              class="bg-newGreen-800 rounded text-white py-2 hover:bg-newBlack-800 duration-200"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution bg-newAmber-800 pt-4">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
