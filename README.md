@@ -32,14 +32,13 @@ Users should be able to:
 ![](./design/screenshotDesktop.jpg)
 ![](./design/screenshotMobile.jpg)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Link](https://taupe-cajeta-75b9c9.netlify.app/)
 
 ## My process
+
+This was pretty basic card. I used Tailwind and built from a mobile first perspective. Nothing crazy but a fun little project none-the-less.
 
 ### Built with
 
@@ -61,6 +60,6 @@ Next steps will be to build out a few basic websites completely in Tailwind. I'd
 
 ## Author
 
-- Website - [Add your name here](https://www.benthrasher.dev)
+- Website - [Ben Thrasher](https://www.benthrasher.dev)
 - Frontend Mentor - [@binthroot](https://www.frontendmentor.io/profile/binthroot)
 - Twitter - [@bennythrash](https://www.twitter.com/bennythrash)
